@@ -1,0 +1,27 @@
+.navbar {
+  min-height: 80px;
+  background-color: white;
+  .navbar-brand {
+  }
+  .navbar-nav {
+    column-gap: 35px;
+    padding-right: 100px;
+    .nav-item {
+      .nav-link {
+        transition: all 0.3s ease;
+        border-bottom: 2px solid transparent;
+        &.active,
+        &:hover {
+          border-bottom: 2px solid orangered;
+        }
+      }
+    }
+    & + a {
+      span {
+      }
+      button {
+        margin-left: 30px;
+      }
+    }
+  }
+}

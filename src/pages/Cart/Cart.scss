@@ -1,0 +1,32 @@
+.cart {
+  margin-bottom: 20px;
+  img {
+    height: 250px;
+    width: auto;
+    padding: 10px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  h3 {
+  }
+  p {
+    color: orangered;
+  }
+  button {
+    padding: 7px 50px;
+    background-color: rgb(95, 155, 216);
+    color: white;
+    border: none;
+    border-radius: 20px;
+  }
+}
